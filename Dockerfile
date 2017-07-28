@@ -9,6 +9,7 @@ RUN apt-get update && apt install -y software-properties-common && \
 RUN service icinga2 start
 
 RUN export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get install -y --no-install-recommends nagios-plugins icinga2-ido-mysql
+RUN icinga2 api setup
 RUN icinga2 feature enable ido-mysql command api
 
 RUN apt-get update && apt-get install -y php5.6
