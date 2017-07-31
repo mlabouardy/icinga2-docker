@@ -1,3 +1,5 @@
+## Icinga2 Docker [![CircleCI](https://circleci.com/gh/mlabouardy/icinga2-docker.svg?style=svg)](https://circleci.com/gh/mlabouardy/icinga2-docker)
+
 ## Run
 
 ```
